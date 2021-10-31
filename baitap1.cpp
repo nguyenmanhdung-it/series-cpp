@@ -32,5 +32,7 @@ int main()
     S = sqrt(p * (p - a) * (p - b) * (p - c));
     cout << "\n"
          << "dien tich tam giac la " << S;
+    cout << "Nguyen Manh Dung";
     return 0;
+
 }
