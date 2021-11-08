@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     float a, b, c, p, S, C;
-    cout << " nhap vao so thuc a: ";
+    cout << "nhap vao so thuc a: ";
     cin >> a;
     cout << "nhap vao so thuc b: ";
     cin >> b;
