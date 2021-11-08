@@ -24,7 +24,10 @@ int main()
             cout << "la tam giac nhon";
     }
     else
-        cout << " a,b,c  khong la ba canh tam giac";
+       {
+           cout << " a,b,c  khong la ba canh tam giac";
+           return 0;
+       }
     C = a + b + c;
     cout << "\n"
          << "chu vi tam giac la: " << C;
@@ -32,7 +35,6 @@ int main()
     S = sqrt(p * (p - a) * (p - b) * (p - c));
     cout << "\n"
          << "dien tich tam giac la " << S;
-    cout << "Nguyen Manh Dung";
     return 0;
 
 }
