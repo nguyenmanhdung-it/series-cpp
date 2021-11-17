@@ -14,7 +14,7 @@ int main()
             cout << " nhap vao phan tu hang " << i << " cot " << j << "\t";
             cin >> a[i][j];
         }
-    cout << "ma tran ket qua la: \n";
+    cout << "ma tran thu duoc la: \n";
     for (i = 1; i <= M; i++)
     {
         for (j = 1; j <= N; j++)
@@ -22,25 +22,20 @@ int main()
             cout << a[i][j] << "  ";
         cout << endl;
     }
-
-    int max = a[0][0];
+    int max = a[1][1];
     for (i = 1; i <= M; i++)
         for (j = 1; j <= N; j++)
         {
             if (max < a[i][j])
                 max = a[i][j];
-            else 
-                return max;
         }
     cout << "phan tu max trong ma tran = " << max << endl;
-    int min = a[0][0];
+    int min = a[1][1];
     for (i = 1; i <= M; i++)
         for (j = 1; j <= N; j++)
         {
             if (min > a[i][j])
                 min = a[i][j];
-        else
-        return min;
         }
     cout << "phan tu min cua ma tran = " << min << endl;
     return 0;
