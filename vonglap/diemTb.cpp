@@ -1,5 +1,5 @@
-#include <iostream>  // nguyễn mạnh dũng 66it5
-using namespace std;   
+#include <iostream> // nguyễn mạnh dũng 66it5
+using namespace std;
 int main()
 {
     float DTB;

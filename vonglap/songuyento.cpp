@@ -13,7 +13,6 @@ int main()
         exit(1);
     }
     for (i = 2; i < M; i++)
-
     {
         if (M % i == 0)
         {

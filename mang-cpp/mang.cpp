@@ -37,6 +37,6 @@ int main()
             if (min > a[i][j])
                 min = a[i][j];
         }
-    cout << "phan tu min cua ma tran = " << min << endl;
+    cout << "phan tu min trong ma tran = " << min << endl;
     return 0;
 }
