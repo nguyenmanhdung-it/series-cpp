@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int i,n,s;
-    cout<<" nhap n= \t";
+    int i,n,p;
+    cout<<" nhap n= ";
     cin>>n;
-    s=1;
+    p=1;
     for(int i=2; i<=n ; ++i)
     {
-        s*=i ;  
+        p*=i ;  
     }
-    cout<<"s="<<s;
+    cout<<"p="<<p;
     return 0;
 
 }

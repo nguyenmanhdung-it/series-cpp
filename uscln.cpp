@@ -3,10 +3,9 @@ using namespace std;
 int main ()
 {
      int M,N;
-     cout<<" nhap M,N";
-     cout<<"M="<<M;
+     cout<<"M=";
      cin >> M;
-     cout<<"N="<<N;
+     cout<<"N=";
      cin>>N;
    
     while(M!=N)
@@ -16,6 +15,5 @@ int main ()
         else 
             N=N-M;
     }
-    cout<<"uscln =";
     return 0;
 }   

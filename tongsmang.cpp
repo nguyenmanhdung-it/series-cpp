@@ -7,7 +7,7 @@ int main()
     cin >> n;
         for (i = 0; i < n; i++)
     {
-        cout << "nhap so " << i+1<<"\t";
+        cout << "nhap so thu " << i+1<<"\t";
         cin >> a[i];
     }
     for (i = 0; i < n; i++)
